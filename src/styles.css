@@ -1,0 +1,61 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #a2aaad;
+}
+
+.app {
+  height: 505px;
+  width: 300px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.button-wrapper {
+  height: 75px;
+  width: 75px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #5b6770;
+  color: #1d252d;
+  //margin: 2px;
+}
+
+.operator {
+  background-color: #9e1b32;
+  color: #1d252d;
+  font-weight: bold;
+}
+
+.input {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100px;
+  width: 90%;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  background-color: #1d252d;
+  border-radius: 30px 30px 0 0;
+  overflow: hidden;
+}
+
+.clear-btn {
+  width: 225px;
+  border-radius: 0 0 0 30px;
+}
+
+.equal {
+  border-radius: 0 0 30px 0;
+}
